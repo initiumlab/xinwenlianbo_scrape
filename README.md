@@ -3,6 +3,11 @@ Xinwenlianbo Scraping
 
 This is the scripts capable of downloading from Xinwenlianbo, or News Simulcast, of China Central Television.
 
+Requirements
+----------
+pip install -r requirements.txt
+
+
 How to use
 ----------
 This repo does not contain actual data from Xinwenlianbo.
