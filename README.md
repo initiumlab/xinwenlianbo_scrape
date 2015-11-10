@@ -5,7 +5,7 @@ This is the scripts capable of downloading from Xinwenlianbo, or News Simulcast,
 
 Requirements
 ----------
-```
+```shell
 pip install -r requirements.txt
 ```
 
