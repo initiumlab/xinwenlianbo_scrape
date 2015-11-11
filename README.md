@@ -17,6 +17,11 @@ To download the data, run all cells of the following iPython notebooks, in order
 - Initial_Collect
 - Initial_Collect-fix-march-2012
 
+Expected output:
+- Index pages in 'index_pages'
+- Detail pages in 'posts'
+- Text exacted from detail pages, in 'texts'
+
 This would usually take several hours.
 
 To consolidate all texts into one json, please run:
