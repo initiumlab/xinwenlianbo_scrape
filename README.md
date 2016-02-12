@@ -7,7 +7,7 @@ Requirements
 ----------
 ```
 pip install -r requirements.txt
-```2
+```
 
 How to use
 ----------
