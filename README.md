@@ -41,19 +41,26 @@ Index pages of Xinwenlianbo seem in-accessible online.
 The index pages of this period is accessible at a URL similar to
 http://news.cctv.com/program/xwlb/20090627.shtml
 
-### 20110406 - now (Period B)
+### 20100506 - 20110405 (Period B)
+The index pages of this period is accessible at a URL similar to
+http://news.cntv.cn/program/xwlb/20100506.shtml
+
+### 20110406 - now (Period C)
 The index page of this period is accessible at a URL similar to
 http://cctv.cntv.cn/lm/xinwenlianbo/20120406.shtml
 
-Under this period, two sub-periods exist:
+Under this period, four sub-periods exist:
 
-#### 20110406 - 20130714 (Period B1)
+#### 20110406 - 20120226 (Period B1)
 Under this period, the anchors linked to the individual reports are inserted by JavaScript, and the HTML page is encoded with GBK.
 
-##### 20120227 - 20120329 (Period B1x)
-A weird period under B1, in which the title is dynamically inserted, but otherwise similar.
+##### 20120227 - 20120329 (Period B2)
+The title is dynamically inserted, but otherwise similar to B1.
 
-#### 20130715 - now (Period B2)
+##### 20120330 - 20130714 (Period B3)
+Same pattern as B1.
+
+#### 20130715 - now (Period B4; last update 20160212)
 Under this period, the anchors are generated on the server side and the page is in UTF-8.
 
 LICENSE
