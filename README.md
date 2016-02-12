@@ -51,16 +51,16 @@ http://cctv.cntv.cn/lm/xinwenlianbo/20120406.shtml
 
 Under this period, four sub-periods exist:
 
-#### 20110406 - 20120226 (Period B1)
+#### 20110406 - 20120226 (Period C1)
 Under this period, the anchors linked to the individual reports are inserted by JavaScript, and the HTML page is encoded with GBK.
 
-##### 20120227 - 20120329 (Period B2)
+#### 20120227 - 20120329 (Period C2)
 The title is dynamically inserted, but otherwise similar to B1.
 
-##### 20120330 - 20130714 (Period B3)
+#### 20120330 - 20130714 (Period C3)
 Same pattern as B1.
 
-#### 20130715 - now (Period B4; last update 20160212)
+#### 20130715 - now (Period C4; last update 20160212)
 Under this period, the anchors are generated on the server side and the page is in UTF-8.
 
 LICENSE
