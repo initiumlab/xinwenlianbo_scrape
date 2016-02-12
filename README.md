@@ -53,7 +53,7 @@ Titles are like `<font class='title_text'>Title</font>`
 
 #### 20060201 - 20070830 (Period A3)
 
-Titles are like `<span class='title'>Title</font>`
+Titles are like `<span class='title'>Title</span>`
 
 #### 20070831 - 20090625 (Period A4)
 
