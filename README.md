@@ -7,7 +7,7 @@ Requirements
 ----------
 ```
 pip install -r requirements.txt
-```
+```2
 
 How to use
 ----------
@@ -37,7 +37,7 @@ Key periods
 ### Before 20090627
 Index pages of Xinwenlianbo seem in-accessible online.
 
-### 20090627 - 20110405 (Period A)
+### 20090627 - 2010505 (Period A)
 The index pages of this period is accessible at a URL similar to
 http://news.cctv.com/program/xwlb/20090627.shtml
 
