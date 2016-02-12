@@ -41,9 +41,27 @@ Index pages of Xinwenlianbo seem in-accessible online.
 The index pages of this period is accessible at a URL similar to
 http://www.cctv.com/news/xwlb/20020908/index.shtml
 
-### 20090627 - 20100505 (Period B)
+Under this period, there exist multiple sub-periods with similar URL scheme but different HTML layouts.
+
+#### 20020908 - 20041230 (Period A1)
+
+Titles are like `<font class='fs24'>Title</font>`
+
+#### 20041231 - 20060131 (Period A2)
+
+Titles are like `<font class='title_text'>Title</font>`
+
+#### 20060201 - 20070830 (Period A3)
+
+Titles are like `<span class='title'>Title</font>`
+
+#### 20070831 - 20090625 (Period A4)
+
+Title are like `<h1>Title</h1>`
+
+### 20090626 - 20100505 (Period B)
 The index pages of this period is accessible at a URL similar to
-http://news.cctv.com/program/xwlb/20090627.shtml
+http://news.cctv.com/program/xwlb/20090626.shtml
 
 ### 20100506 - 20110405 (Period C)
 The index pages of this period is accessible at a URL similar to
