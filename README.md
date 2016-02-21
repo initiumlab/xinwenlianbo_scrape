@@ -37,7 +37,7 @@ Key periods
 ### On and Before 20020927
 Index pages of Xinwenlianbo seem in-accessible online.
 
-### 20020908 - 20090626 (Period A)
+### 20020908 - 20090625 (Period A)
 The index pages of this period is accessible at a URL similar to
 http://www.cctv.com/news/xwlb/20020908/index.shtml
 
