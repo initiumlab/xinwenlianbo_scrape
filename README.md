@@ -67,7 +67,7 @@ http://news.cctv.com/program/xwlb/20090626.shtml
 The index pages of this period is accessible at a URL similar to
 http://news.cntv.cn/program/xwlb/20100506.shtml
 
-### 20110406 - now (Period D)
+### 20110406 - 20160220 (Period D)
 The index page of this period is accessible at a URL similar to
 http://cctv.cntv.cn/lm/xinwenlianbo/20120406.shtml
 
@@ -82,28 +82,38 @@ The title is dynamically inserted, but otherwise similar to B1.
 #### 20120330 - 20130714 (Period D3)
 Same pattern as B1.
 
-#### 20130715 - now (Period D4; last update 20160212)
+#### 20130715 - 20160220 (Period D4)
 Under this period, the anchors are generated on the server side and the page is in UTF-8.
 
-For reference, checkout the JavaScript implementation of the calendar date picker on any Xinwenlianbo page,
-such as <http://news.cntv.cn/program/xwlb/20110105.shtml>. It's something like this:
+### 20160202 - now (Period E; last check 20160226)
+Under these period, the index is always at http://tv.cctv.com/lm/xwlb/index.shtml, while the anchors are asynchronoly loaded from a url in the form of http://tv.cctv.com/lm/xwlb/day/20160226.shtml
+
+Note that this period overlaps with Period D4.
+
+For reference, checkout the JavaScript implementation of the calendar date picker on the latest Xinwenlianbo page in 2016,
+such as <http://tv.cctv.com/lm/xwlb/index.shtml>. It's something like this:
 ```
-var start = new Date(2009, 5, 25, 0, 0, 0);
-//alert("start.getMonth()"+start.getMonth());
-//alert("time="+time.getFullYear()+(time.getMonth()+1)+time.getDate() + "********start=" + start.getFullYear()+(start.getMonth()+1)+start.getDate() + "********now=" + now.getFullYear()+(now.getMonth()+1)+now.getDate());
-if((time < now) && (time > start)){
-var time_1 = year + mon + day;
-if(time_1<20100506){
-str = "http://news.cctv.com/program/xwlb/" + year + mon + day + ".shtml";
-}
-if(time_1>=20100506&&time_1<20110406){
-str = "http://news.cntv.cn/program/xwlb/" + year + mon + day + ".shtml";
-}
-if(time_1>=20110406){
-str = "http://cctv.cntv.cn/lm/xinwenlianbo/" + year + mon + day + ".shtml";
-}
-window.open(str);
-}
+		if(time_1<20100506){
+			str = "http://news.cctv.com/program/xwlb/" + year + mon + day + ".shtml";//这里的地址使用他之前的地址域名
+			window.open(str);
+		}
+		if(time_1>=20100506&&time_1<20110406){
+			str = "http://news.cntv.cn/program/xwlb/" + year + mon + day + ".shtml";//这里的地址使用他之前的地址域名，具体域名可参考相关栏目的旧时间表JS写法
+			window.open(str);
+		}
+		if(time_1>=20110406&&time_1<20130709){
+		    //alert("http://cctv.cntv.cn/program/C29201/" + year + mon + day + ".shtml");
+			str = "http://cctv.cntv.cn/lm/xinwenlianbo/" + year + mon + day + ".shtml";//这里的地址使用他之前的新地址域名
+			window.open(str);
+		}
+		if(time_1>=20130709&&time_1<20160203){
+			str = "http://cctv.cntv.cn/lm/xinwenlianbo/" + year + mon + day + ".shtml";//这里的地址使用新地址域名例如http://news.cntv.cn/lm/xinwenlianbotest/20130515.shtml
+			window.open(str);
+		}
+		
+		if(time_1>=20160203){
+		  //Code skipped
+  	}
 ```
 (The above code is for research purpose only and is only distributed under Xinwenlianbo's terms.)
 
